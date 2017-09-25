@@ -57,3 +57,5 @@ notebook to run a series of queries and investigations on the sql database creat
 a sample of the main datafile (every 10th element)
 
 
+### NOTE - on updates
+The 'original' datafile for the project (swlondon.osm) as created from OSM was lost. It has been recreated by downloading from OSM with the same lat-long params. But some data may ahve changed. The scripts will all still work, but some specific answers may have changed from the original submission version.
