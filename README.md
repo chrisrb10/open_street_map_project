@@ -2,13 +2,15 @@
 A project completed for the Udacity Data Analysis Nanodegree programme to download, interrogate & clean data (on SW London) from the OSM project, 
 then write it to an SQL database and runs a series of queries.
 
+**NOTE - all scripts written in Python 2.7**
+
 
 **OSM_project_submission.html**
 The 'write up' of the project, including description of map area, cleaning issues, data investigation and additional ideas.
 
 **swlondon_sample_submission.osm** a c. 10MB extract from the swlondon.osm file used in the project 
 
-###### Python Scripts
+### Python Scripts
 **osm_sampling.py** 
 A script to take a smaller sample from the large swlondon.osm file
 
@@ -35,5 +37,19 @@ Processes swlondon.osm, makes all required cleaning changes (and prints those ma
 
 **csv_to_database.py**
 reads the created csv files, and writes all the content to the relevant tables in the database
+
+### Python notebooks
+**osm_project_code.ipynb**
+a 'working' notebook to load & explore the data, and develop functions to clean & process it
+
+**osm_project_notes.ipynb**
+a 'working' notebook to record thoughts/observations as developing processing ideas
+
+**osm_processing_code.ipynb**
+notebook of all the python code & functions to load & clean osm data, write to csv, and then read into SQL database
+
+**osm_db_queries**
+notebook to run a series of queries and investigations on the sql database created from the osm data
+
 
 
