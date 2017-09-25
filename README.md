@@ -52,12 +52,8 @@ notebook of all the python code & functions to load & clean osm data, write to c
 notebook to run a series of queries and investigations on the sql database created from the osm data
 
 ### Data files
-**swlondon.osm** 
-the downloaded osm datafile for swlondon
 
 **swlondon_sample.osm** 
 a sample of the main datafile (every 10th element)
 
-**swlondon.sqlite**
-the created sql database from the swlondon osm data
 
